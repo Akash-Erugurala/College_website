@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - CIC</title>
+</head>
+<body bgcolor="FFFDE4">
+    <table bgcolor="violet" width="98%" cellpadding="10",cellspacing="100">
+        <tr>
+       <th><a target="_blank" href="home.html">Home</a></th></a>
+       <th><a target="_blank" href="academics.html">Academics</th></a>
+       <th style="color:black;">Admission</th></a>
+       <th><a target="_blank" href="gallery.html">Gallery</th></a>
+      </tr>
+      </table>
+<br>
+
+    <h1><marquee scrollamount="30" bgcolor="" height="40px" scrolldelay="200" behavior="alternate">Registrations closes soon.</marquee></h1>
+    <form action="admission.php">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="First Name"> <br> <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="fname" name="First Name"> <br> <br>
+        <label for="father-name">Father's Name</label>
+        <input type="text" id="father-name" name="Father Name"> <br> <br>
+        <label for="lname">Mother's Name</label>
+        <input type="text" id="mother-name" name="Mother Name"> <br> <br>
+        <label for="bday">Date of Birth</label>
+        <input type="date" id="bday" name="birthday"> <br> <br>
+        <span>Gender :</span>
+        <input type="radio" id="male" name="Gender" value="Male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="male">Female</label>
+        <input type="radio" id="other" name="Gender" value="Other">
+        <label for="male">Other</label> <br> <br>
+        <label for="email">Email ID</label>
+        <input type="email" id="email" name="mail" value="@gmail.com">
+        <label for="mobile-num">Mobile Number</label>
+        <input type="tel" id="mobile-num" value="+91">
+        <br><br>
+        Address:
+        <br><br>
+        Address Line 1:
+    <input type="text" name="Address Line 1">
+    Address Line 2:
+    <input type="text" name="Address  Line 2">
+    <br>
+        </fieldset>
+<br>
+
+        <fieldset>
+            <legend>Education Details.</legend>
+            Class 10th:
+            School:
+            <input type="text" name="School">
+            Board:
+            <input type="text" name="Board">
+            CGPA:
+            <input type="number" name="CGPA" min="1" max="10">
+            Percentage:
+            <input type="number" name="CGPA" min="1" max="100">
+            <br>
+            <br>
+            Class 12th:
+            School:
+            <input type="text" name="School">
+            Board:
+            <input type="text" name="Board">
+            CGPA:
+            <input type="number" name="CGPA" min="1" max="10">
+            Percentage:
+            <input type="number" name="CGPA" min="1" max="100">
+            <br>
+            <br>
+            </fieldset>
+            <br>
+            <br>
+    
+        <fieldset>
+            <legend>Admission Test Details.</legend>
+        Select the course you want to opt for:
+
+        <select name="Course">
+            <option value="B.Tech">B.Tech</option>
+            <option value="M.Sc Mathematics">M.Sc Mathematics</option>
+            <option value="Phd">Phd</option>
+            <option value="BA">BA</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        Select the preferred location centre:
+        <select name="Centre">
+            <option value="BCA">Mumbai</option>
+            <option value="MCA">Delhi</option>
+            <option value="BA">Bangalore</option>
+            <option value="MA">Chennai</option>
+            <option value="BSc" selected >Hyderabad</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        Select the preferred Slot:
+            <select name="Slot">
+            <option value="9.30 am-11.30 am">9.30 am-11.30 am</option>
+            <option value="1.00 pm-3.00 pm">1.00 pm-3.00 pm</option>
+            <option value="4.30 pm-6.30 pm">4.30 pm-6.30 pm</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        Specially abled:
+        <input type="radio" name="Specially abled">Yes
+            <input type="radio" name="Specially abled">No
+    
+    </fieldset>
+    <br>
+    The information provided by me are true to the best to my knowledge?
+            <input type="checkbox" name="Checkbox">
+            <br>
+            <br>
+ 
+    <input type="submit"> or 
+    <input type="reset">
+    </form>
+</body>
+</html>
